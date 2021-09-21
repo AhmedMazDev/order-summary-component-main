@@ -33,6 +33,7 @@ button {
   border: none;
   background-color: transparent;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .container {
@@ -91,6 +92,10 @@ button {
   color: white;
   background-color: hsl(245, 75%, 52%);
   border-radius: 0.7rem;
+}
+
+.pay:hover {
+  background-color: hsla(245, 75%, 52%, 0.7);
 }
 
 .change {
